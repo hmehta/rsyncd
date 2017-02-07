@@ -27,6 +27,7 @@ max connections = $RSYNC_MAX_CONNECTIONS
   hosts deny = *
   hosts allow = ${RSYNC_ALLOW}
   read only = $RSYNC_READ_ONLY
+  write only = $RSYNC_WRITE_ONLY
   path = $RSYNC_VOLUME
   comment = $RSYNC_NAME volume on $RSYNC_VOLUME
   auth users = $RSYNC_USERNAME
